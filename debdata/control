@@ -1,0 +1,10 @@
+Package: hackbox-darknet
+Version: 0.1
+Section: admin
+Maintainer: Carl J Smith <BM-NBHLt5EUFVEbRCmrbVrfCyaB2c8d24U9>
+Installed-Size: 20
+Priority: optional
+Architecture: all
+Depends: python (>=2.7)
+Description: Sets up darknet on a computer.
+ Installs macchanger and randomizes the mac on boot. Creates macRandomizer command to randomize the mac address of all interfaces. Installs I2P via a PPA. Installs TOR and Privoxy then configures everything to work though Privoxy. So point most things to localhost port 8118 to send them to darknet.
